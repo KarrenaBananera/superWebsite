@@ -6,3 +6,13 @@
 header.text-bg-dark {
   background-color: rgba(var(--bs-dark-rgb), 1) !important;
 }
+
+.hover-effect {
+  transition: all 0.15s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  color: #ffff !important; /* Bootstrap cyan color */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.375);
+}
