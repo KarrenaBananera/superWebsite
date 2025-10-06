@@ -1,0 +1,8 @@
+:root {
+  --bs-dark-rgb: 32, 34, 36; 
+}
+
+
+header.text-bg-dark {
+  background-color: rgba(var(--bs-dark-rgb), 1) !important;
+}
